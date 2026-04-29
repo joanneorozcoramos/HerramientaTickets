@@ -36,13 +36,14 @@ touch database/database.sqlite
 php artisan migrate --seed
 
 # Instalar Laravel Sanctum (autenticación)
-php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
-php artisan migrate
+- php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
+- php artisan migrate
 
 # Iniciar servidor
 php artisan serve
 
 # Frontend (Vue)
+cd HerramientaTickets
 cd frontend-tickets
 
 # Instalar dependencias
