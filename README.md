@@ -18,7 +18,7 @@ git clone git@github.com:joanneorozcoramos/HerramientaTickets.git
 cd Gestion_Tickets_Soporte
 
 # Backend (Laravel)
-cd backend-tickets
+cd HerramientaTickets
 
 # Instalar dependencias
 composer install
